@@ -1,0 +1,13 @@
+/* Import external CSS files first */
+@import "../../node_modules/slim-select/dist/slimselect.css";
+@import "../../node_modules/flatpickr/dist/flatpickr.min.css";
+
+/* Then add your CSS rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your other styles go here */
+[x-cloak] {
+    display: none;
+}
